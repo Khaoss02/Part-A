@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.parta.ui.theme.PartATheme
 
 class MainActivity : ComponentActivity() {
+    //Canvi local Part A
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
