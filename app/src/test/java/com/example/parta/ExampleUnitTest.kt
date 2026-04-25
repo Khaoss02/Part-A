@@ -11,7 +11,13 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun suma_correcta() {
+        assert(2 + 2 == 4)
+    }
+
+    @Test
+    fun texto_contiene_letra() {
+        val texto = "Andrei"
+        assert(texto.contains("A"))
     }
 }
