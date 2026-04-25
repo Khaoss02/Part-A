@@ -15,7 +15,7 @@ import com.example.parta.ui.theme.PartATheme
 
 class MainActivity : ComponentActivity() {
     //Canvi local Part A
-    //Canvi nova rama
+    //Canvi nova rama a
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
